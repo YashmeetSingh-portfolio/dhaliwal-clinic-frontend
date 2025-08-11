@@ -1,0 +1,46 @@
+.book-cta-section {
+    height: 100vh;
+    background: linear-gradient(90deg, #1c7c68 0%, #1c8873 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.book-cta-content {
+    max-width: 750px;
+}
+
+.book-cta-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.book-cta-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    color: #f0f0f0;
+}
+
+.book-btn {
+    background-color: #ffffff;
+    color: #1c7c68;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.book-btn:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transform: translateY(-2px);
+}

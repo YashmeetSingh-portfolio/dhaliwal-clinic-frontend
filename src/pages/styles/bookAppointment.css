@@ -1,0 +1,104 @@
+.appointment-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #e6f7f4 0%, #d5f5ee 100%);
+}
+
+.appointment-hero {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #1c7c68 0%, #1c8873 100%);
+    color: white;
+    text-align: center;
+}
+
+.appointment-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.appointment-hero p {
+    font-size: 1.2rem;
+}
+
+.appointment-form-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+.appointment-form-container {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+    max-width: 500px;
+    width: 100%;
+}
+
+.appointment-form-container h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    color: #206a5d;
+    text-align: center;
+}
+
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    resize: none;
+    transition: border-color 0.3s ease;
+}
+
+.appointment-form input:focus,
+.appointment-form select:focus,
+.appointment-form textarea:focus {
+    outline: none;
+    border-color: #1c7c68;
+}
+
+.appointment-form button {
+    background-color: #1c7c68;
+    color: white;
+    padding: 0.9rem 1.2rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-form button:hover {
+    background-color: #186d5c;
+}
+
+@media (max-width: 768px) {
+    .appointment-hero h1 {
+        font-size: 2rem;
+    }
+
+    .appointment-hero p {
+        font-size: 1rem;
+    }
+
+    .appointment-form-container {
+        padding: 2rem 1.5rem;
+    }
+}

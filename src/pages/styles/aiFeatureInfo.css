@@ -1,0 +1,89 @@
+/* src/styles/aiFeatureInfo.css */
+.ai-info-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e6f7f4, #d5f5ee);
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ai-info-hero {
+  max-width: 900px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.ai-info-hero h1 {
+  font-size: 2.6rem;
+  color: #1c7c68;
+  margin-bottom: 1rem;
+}
+
+.ai-info-hero p {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.ai-illustration {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.ai-info-cta {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.ai-info-cta h2 {
+  font-size: 2rem;
+  color: #1c7c68;
+  margin-bottom: 1rem;
+}
+
+.ai-info-cta p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.ai-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.ai-login-btn,
+.ai-signup-btn {
+  background-color: #1c7c68;
+  color: white;
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.ai-signup-btn {
+  background-color: #ffffff;
+  color: #1c7c68;
+  border: 2px solid #1c7c68;
+}
+
+.ai-login-btn:hover {
+  background-color: #155e51;
+}
+
+.ai-signup-btn:hover {
+  background-color: #e6f7f4;
+}

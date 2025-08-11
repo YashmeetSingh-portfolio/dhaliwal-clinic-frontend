@@ -1,0 +1,120 @@
+.pricing-page {
+  background: linear-gradient(90deg, #e6f7f4 0%, #d5f5ee 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  padding-top: 3rem;
+}
+
+.pricing-container {
+  text-align: center;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.pricing-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2.5rem;
+}
+
+.pricing-cards {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.pricing-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+}
+
+.pricing-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.plan-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #ff9800;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.4rem 0.7rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.plan-icon {
+  color: #4cafef;
+  margin-bottom: 1rem;
+}
+
+.plan-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+}
+
+.plan-credits {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.check-icon {
+  color: #4caf50;
+  margin-right: 5px;
+}
+
+.plan-price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #222;
+}
+
+.buy-button {
+  background-color: #206a5d; /* New green shade */
+  border: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.buy-button:hover {
+  background-color: #185349;
+  transform: scale(1.05);
+}
+
+.highlight-plan {
+  border: 2px solid #ff9800;
+}
+
+.highlight-btn {
+  background-color: #ff9800; 
+}
+
+.highlight-btn:hover {
+  background-color: #e68a00;
+}

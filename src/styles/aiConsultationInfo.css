@@ -1,0 +1,47 @@
+.ai-info-section {
+    height: 100vh;
+    background: linear-gradient(90deg, #d5f5ee 0%, #e6f7f4 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.ai-info-content {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.ai-info-content h2 {
+    font-size: 2.4rem;
+    color: #206a5d;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.ai-info-content p {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.ai-btn {
+    padding: 0.9rem 2rem;
+    background-color: #206a5d;
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.ai-btn:hover {
+    background-color: #1a5c50;
+    transform: translateY(-2px);
+}

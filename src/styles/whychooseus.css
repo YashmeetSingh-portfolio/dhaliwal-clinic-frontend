@@ -1,0 +1,78 @@
+.why-section {
+    padding: 3rem 2rem;
+    background: linear-gradient(90deg, #e6f7f4 0%, #d5f5ee 100%);
+    text-align: center;
+    min-height: 100vh;
+}
+
+.why-heading h2 {
+    font-size: 2.2rem;
+    color: #206a5d;
+    margin-bottom: 0.5rem;
+}
+
+.why-heading p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 3rem;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.why-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.4rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.why-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.why-icon {
+    font-size: 2rem;
+    color: #206a5d;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.why-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #206a5d;
+}
+
+.why-card p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+@media (max-width: 992px) {
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why-heading h2 {
+        font-size: 1.8rem;
+    }
+
+    .why-heading p {
+        font-size: 1rem;
+    }
+}

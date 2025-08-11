@@ -1,0 +1,186 @@
+/* Fully Responsive Flexbox Layout for the Chat Page */
+.ai-chat-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Use full viewport height */
+  background: #f7f7f8;
+}
+
+.ai-chat-header {
+  text-align: center;
+  padding: 1rem 1.5rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  flex-shrink: 0; /* Prevents the header from shrinking */
+}
+
+.ai-chat-title {
+  font-size: 1.6rem;
+  color: #202123;
+  margin: 0 0 0.25rem 0;
+  font-weight: 600;
+}
+
+.ai-chat-description {
+  font-size: 0.9rem;
+  color: #6e6e80;
+  margin: 0;
+}
+
+/* This container will grow and scroll */
+.ai-chat-container {
+  flex-grow: 1; /* Allows this element to fill available space */
+  overflow-y: auto; /* Enables vertical scrolling for messages */
+  padding: 0 1rem;
+}
+
+.ai-chat-messages {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.ai-msg-container {
+  display: flex;
+  width: 100%;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.ai-user-container {
+  background-color: #ffffff;
+}
+
+.ai-reply-container {
+  background-color: #f7f7f8;
+}
+
+/* Adding a wrapper for message content and an icon */
+.ai-msg-wrapper {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.ai-msg-icon {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.ai-user-container .ai-msg-icon {
+    background-color: #9b59b6; /* User icon color */
+}
+
+.ai-reply-container .ai-msg-icon {
+    background-color: #10a37f; /* AI icon color */
+}
+
+.ai-msg {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #343541;
+  white-space: pre-wrap; /* Allows text to wrap properly */
+  overflow-wrap: break-word; /* Breaks long words */
+}
+
+.ai-typing {
+  min-width: 70px;
+}
+
+.typing-indicator {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.typing-indicator span {
+  width: 8px;
+  height: 8px;
+  background-color: #8e8ea0;
+  border-radius: 50%;
+  animation: typing 1.4s infinite ease-in-out both;
+}
+
+.typing-indicator span:nth-child(1) { animation-delay: 0s; }
+.typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+.typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes typing {
+  0%, 100% { transform: scale(0.6); opacity: 0.6; }
+  50% { transform: scale(1); opacity: 1; }
+}
+
+.ai-placeholder {
+  text-align: center;
+  color: #8e8ea0;
+  padding-top: 4rem;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* Input area now part of the flex layout */
+.ai-chat-input-area {
+  display: flex;
+  gap: 0.75rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #f7f7f8; /* Match page background */
+  flex-shrink: 0; /* Prevents the input area from shrinking */
+}
+
+.ai-chat-input-wrapper {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.ai-chat-input-wrapper input {
+  flex-grow: 1;
+  padding: 0.8rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.ai-send-button, .ai-voice-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #10a37f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  flex-shrink: 0;
+}
+
+.ai-voice-button {
+  background-color: #ececf1;
+  color: #6e6e80;
+}
+
+.ai-send-button:hover {
+  background-color: #0e8a6c;
+}
+
+.ai-voice-button:hover {
+  background-color: #d9d9e3;
+}
+
+/* No media queries needed for the main layout anymore, 
+   but you can keep them for fine-tuning fonts etc. if you wish. */

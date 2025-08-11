@@ -1,0 +1,14 @@
+<svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- DH Letters -->
+  <path d="M10 5h5v30h-5V25H5v10H0V5h5v15h5V5z" fill="#FFFFFF"/>
+  <path d="M30 5h5v30h-5V25h-5v10h-5V5h5v15h5V5z" fill="#FFFFFF"/>
+  <!-- Medical Cross Symbol -->
+  <rect x="45" y="12" width="16" height="16" rx="2" fill="#FFFFFF"/>
+  <rect x="51" y="8" width="4" height="24" rx="1" fill="#2C5282"/>
+  <rect x="41" y="18" width="24" height="4" rx="1" fill="#2C5282"/>
+  <!-- Clinic Text -->
+  <path d="M75 25c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10zm15 0c0-2.761-2.239-5-5-5s-5 2.239-5 5 2.239 5 5 5 5-2.239 5-5z" fill="#FFFFFF"/>
+  <path d="M100 15h5v20h-5V15z" fill="#FFFFFF"/>
+  <path d="M110 15h5l10 20h-6l-1.5-3h-10l-1.5 3h-6l10-20zm6.5 13l-4-8-4 8h8z" fill="#FFFFFF"/>
+  <path d="M130 15h15v4h-10v4h8v4h-8v4h10v4h-15V15z" fill="#FFFFFF"/>
+</svg>
