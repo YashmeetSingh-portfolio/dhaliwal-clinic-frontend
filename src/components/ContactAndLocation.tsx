@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/contactAndLocation.css';
 
 export default function ContactAndLocation() {

@@ -1,4 +1,3 @@
-import React from 'react';
 import './styles/bookAppointment.css';
 
 export default function BookAppointment() {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // No longer need useEffect or uuidv4
+import  { useState } from 'react'; // No longer need useEffect or uuidv4
 import { useNavigate } from 'react-router-dom';
 import { FaCoins, FaInfinity, FaCheckCircle, FaCrown } from 'react-icons/fa';
 import './styles/pricingPage.css';
@@ -14,7 +14,7 @@ export default function PricingPage({ sessionId }: PricingPageProps) {
   const [selectedPlan, setSelectedPlan] = useState<any>(null);
   const [userCredits, setUserCredits] = useState(0); 
   const navigate = useNavigate();
-
+  console.log(userCredits); // Debugging line to check sessionId
   // The useEffect that generated a random ID has been completely removed.
 
   const plans = [

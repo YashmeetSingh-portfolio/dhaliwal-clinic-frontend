@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/bookAppointmentCTA.css';
 
 export default function BookAppointmentCTA() {

@@ -1,5 +1,4 @@
 // src/components/ProtectedAIWrapper.tsx
-import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth } from '../firebase';
 import AIProtectedPage from '../pages/AIProtectedPage';

@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/whychooseus.css';
 
 export default function WhyChooseUs() {

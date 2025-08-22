@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/aiConsultationInfo.css';
 
 export default function AIConsultationInfo() {

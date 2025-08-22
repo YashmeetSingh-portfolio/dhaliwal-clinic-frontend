@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/hero.css';
 import { Link } from 'react-router-dom';
 

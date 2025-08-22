@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // I'll assume you have a firebase.ts or firebaseConfig.ts file for auth
 // If not, you'll need to create one.

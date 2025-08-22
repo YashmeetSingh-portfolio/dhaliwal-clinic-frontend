@@ -1,8 +1,8 @@
 // PaymentComponent.js
 
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import '../styles/paymentComponent.css';
-import { FaQrcode, FaCreditCard, FaTag, FaSpinner } from 'react-icons/fa';
+import {  FaTag, FaSpinner } from 'react-icons/fa';
 
 interface PaymentComponentProps {
   planTitle: string; // 👈 We'll use this prop

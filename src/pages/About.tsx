@@ -1,4 +1,3 @@
-import React from 'react';
 import './styles/aboutPage.css';
 
 export default function About() {
